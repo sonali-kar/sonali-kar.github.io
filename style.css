@@ -162,3 +162,103 @@ header.sticky{
 	line-height: 28px;
 	margin-bottom: 45px;
 }
+.education .heading{
+   font-size:30px;
+}
+.education .education-box{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+.education .education-box .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid rgb(16, 16, 16);
+    position: relative;
+}
+.education .education-box .box span{
+    font-size: 20px;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .education-box .box h3{
+    font-size: 25px;
+    color:rgb(12, 12, 12);
+    padding-top: 1.5rem;
+}
+.education .education-box .box h2{
+    font-size: 25px;
+    color:rgb(14, 14, 14);
+    padding-top: 1.5rem;
+}
+
+.education .education-box .box p{
+    font-size: 20px;
+    color:#222;
+    padding: 1rem 0;
+}
+
+.education .education-box .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#222;
+
+}
+.skills .heading{
+    font-size: 30px;
+}
+.skills .skill-container{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.skills .skill-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: 4px solid rgb(10, 10, 10);
+    position: relative;
+}
+.skills .skill-container .box ul{
+    font-size: 25px;
+    color:rgb(16, 15, 15);
+    padding-top: 1.5rem;
+    
+
+    }
+    .skills .skill-container .box li{
+        margin:20px;
+        list-style-type:disc;
+    
+    }
+
+    .skills .skill-container .box i{
+        position: absolute;
+        top:-1.5rem; left:-2.5rem;
+        height:5rem;
+        width: 5rem;
+        border-radius: 50%;
+        line-height: 5rem;
+        text-align: center;
+        font-size: 2rem;
+        color:rgb(8, 8, 8);
+    }
